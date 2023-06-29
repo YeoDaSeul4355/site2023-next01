@@ -1,0 +1,87 @@
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer__inner .footer__text {
+    width: 20%;
+}
+
+.footer__inner .footer__text h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer__inner .footer__text p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #808080;
+}
+
+.footer__inner .footer__text .sns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__inner .footer__text .sns li {
+    display: inline;
+}
+
+.footer__inner .footer__text .sns li a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    background-color: #f5f5f5;
+    background-image: url(/assets/images/footer/Facebook.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer__inner .footer__text .sns li:nth-child(2) a {
+    background-image: url(/assets/images/footer/Instagram.svg);
+}
+
+.footer__inner .footer__text .sns li:nth-child(3) a {
+    background-image: url(/assets/images/footer/YouTube.svg);
+}
+
+.footer__inner .footer__text .sns li:nth-child(4) a {
+    background-image: url(/assets/images/footer/Link.svg);
+}
+
+.footer__inner .footer__menu {
+    width: 70%;
+    display: flex;
+}
+
+.footer__inner .footer__menu>div {
+    width: 25%;
+}
+
+.footer__inner .footer__menu>div h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.footer__inner .footer__menu>div a {
+    color: #808080;
+    line-height: 1.6;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer__inner .footer__right {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 300;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 50px;
+    padding: 30px;
+    color: #808080;
+    text-align: center;
+}
