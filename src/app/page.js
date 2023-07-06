@@ -8,17 +8,17 @@ import Unsplash from "@/components/unsplash/Unsplash";
 import Movie from "@/components/movie/Movie";
 
 const Home = () => {
-    return (
-        <>
-            <Slider />
-            <Intro />
-            <Artist />
-            <Card />
-            <Youtube />
-            <Unsplash />
-            <Movie />
-        </>
-    );
+  return (
+    <>
+      <Slider />
+      <Intro />
+      <Artist />
+      <Card />
+      <Youtube />
+      <Unsplash />
+      <Movie />
+    </>
+  );
 };
 
 export default Home;

@@ -1,0 +1,93 @@
+// cards__wrap
+.cards__wrap {
+}
+.cards__inner {
+  .cards__btn {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    button {
+      display: inline-block;
+      margin: 0px 10px 10px 10px;
+      padding: 10px 20px;
+      background-color: #d9e4ff;
+      border-radius: 50px;
+      border: 1px solid #a2bcff;
+      transition: background-color 0.3s;
+      font-size: 18px;
+      font-weight: 300;
+      cursor: pointer;
+      &:hover {
+        background-color: darken(#d9e4ff, 10%);
+      }
+      &.active {
+        background-color: darken(#d9e4ff, 10%);
+      }
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+
+      li {
+        display: inline-block;
+        margin: 0px 10px 10px 10px;
+        padding: 10px;
+        background-color: #d9e4ff;
+        border-radius: 50px;
+        border: 1px solid #a2bcff;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: darken(#d9e4ff, 10%);
+        }
+
+        a {
+          padding: 10px 15px;
+          font-size: 18px;
+          font-weight: 300;
+          color: #232323;
+        }
+      }
+    }
+  }
+
+  .cards__conts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .card {
+      margin-top: 50px;
+      width: 32.2222%;
+      text-align: left;
+      line-height: 1.4;
+      .card__header {
+        img {
+          width: 100%;
+        }
+      }
+      .card__body {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        span {
+          padding-right: 10px;
+        }
+
+        h4 {
+          font-size: 20px;
+          font-weight: 500;
+        }
+        p {
+          font-size: 16px;
+          color: #8997a8;
+        }
+      }
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6) {
+      }
+    }
+  }
+}
+
+// card__page

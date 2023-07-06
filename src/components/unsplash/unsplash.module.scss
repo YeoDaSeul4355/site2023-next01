@@ -1,0 +1,130 @@
+// unsplash__wrap
+
+.unsplash__wrap {
+  overflow: hidden;
+}
+.unsplash__inner {
+  height: 600px;
+  .unsplash__text {
+    h3 {
+      font-size: 50px;
+      margin-bottom: 40px;
+    }
+    p {
+      font-size: 22px;
+      font-weight: 300;
+      margin-bottom: 60px;
+    }
+    a {
+      border-radius: 50px;
+    }
+  }
+
+  .unsplash__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    position: absolute;
+    > div {
+      width: 413px;
+
+      img {
+        width: 100%;
+        padding: 0 20px 0 0;
+        border-radius: 20px;
+      }
+    }
+  }
+}
+
+// unsplash__search
+.unsplash__search {
+  text-align: center;
+  margin-bottom: 50px;
+  input {
+    border: 1px solid #e8ecf2;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    min-width: 300px;
+    margin-right: 10px;
+  }
+  button {
+    border-radius: 50px;
+  }
+}
+// unsplash__tag
+.unsplash__tag {
+  div {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    button {
+      cursor: pointer;
+      border: 1px solid #8b99ad;
+      padding: 10px 20px;
+      margin: 0 10px;
+      color: #8b99ad;
+      transition: all 0.5s;
+      &:hover {
+        border-radius: 30px;
+        color: #fff;
+        background-color: #8b99ad;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+// unsplash__page
+.unsplash__cont {
+  ul {
+    column-count: 5;
+    li {
+      margin-bottom: 20px;
+      a {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+.unsplash__slider {
+  margin-bottom: 50px;
+  .swiper {
+    // backface-visibility: hidden;
+    height: 600px;
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+      bottom: -70px !important;
+    }
+
+    .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+      height: 100%;
+
+      img {
+        display: block;
+        width: 350px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 20px;
+      }
+    }
+  }
+  .mySwiper {
+    width: 400px;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+}
